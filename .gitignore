@@ -1,0 +1,22 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage / profiling
+coverage.txt
+*.prof
+*.pprof
+
+# Dependency dirs (Go modules — vendored deps if you ever add them)
+vendor/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
